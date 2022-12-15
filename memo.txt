@@ -1,0 +1,7 @@
+・電池残量取得
+・wifiスキャン
+・タイマー
+・deploy時にスキャンをループ
+・APmodeをoff
+https://qiita.com/Kosuke_Matsui/items/cbb39fd9cd5a120e15fe
+#APmodeに関するもの
