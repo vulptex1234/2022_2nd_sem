@@ -10,7 +10,7 @@ import webrepl
 machine.freq(240000000)
 
 
-SET_AP = True
+Lab_or_ESP = True #Trueの時は研究室wifiに接続を試みる
 
 red = Pin(13, Pin.OUT)
 blue = Pin(4, Pin.OUT)
@@ -27,4 +27,6 @@ ID = machine.unique_id()
 print("boot is ok")
 utime.sleep(1)
 
-execfile("autowifi.py")
+execfile("esp.py")
+connect_lab_wifi()
+

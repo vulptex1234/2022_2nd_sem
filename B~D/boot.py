@@ -10,7 +10,7 @@ import webrepl
 machine.freq(240000000)
 
 
-SET_AP = True
+LAB_or_ESP = True
 
 
 red = Pin(13, Pin.OUT)
@@ -28,6 +28,6 @@ ID = machine.unique_id()
 print("boot is ok")
 utime.sleep(1)
 
-execfile("ap.py")
-execfile("client.py")
+#execfile("ap.py")
+#execfile("client.py")
 #execfile("connect.py")

@@ -4,4 +4,8 @@
 ・deploy時にスキャンをループ
 ・APmodeをoff
 https://qiita.com/Kosuke_Matsui/items/cbb39fd9cd5a120e15fe
-#APmodeに関するもの
+#APmodeに関するもの↑
+
+ESP(L)のessid = ESP_D38A19
+
+apモード停止 = ap.active(False)
